@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5d754fa1c7.js" crossorigin="anonymous"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="sb" class="sidebar" >
+            <div id="ham" class="burger" onclick="toggle()">
+                <div id="one" class="burg"></div>
+                <div id="two" class="burg"></div>
+                <div id="three" class="burg"></div>
+            </div>
+            <p>Phillip Nguyen</p>
+            <ul>
+                <li><a href=""><i class="fas fa-home"></i> Home</a></li>
+                <li><a href=""><i class="fas fa-address-card"></i> News</a></li>
+                <li><a href=""><i class="fas fa-address-book"></i> Chart & Info</a></li>
+                <li><a href=""><i class="fas fa-sign-in-alt"></i> Contact</a></li>
+            </ul>
+        </div>
+        <div id = "nb" class="navbar">
+            <ul>
+                <li></li>
+                <li></li>
+                <li class="middle">
+                    <a href="">Home</a>
+                </li>
+                <li class="middle">
+                    <a href="">About</a>
+                    
+                </li>
+                <li class="middle">
+                    <a href="">US Corona Tracker</a>
+                </li>
+                <li id="register">
+                    <a  href="">Register</a>
+                </li>
+                <li id="login">
+                    <a  href="">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="copy">
+            Copyright &copy; Phillip Nguyen 2020 
+        </div>
+        <div>
+             Powered by COVID19API & NewsAPI
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
